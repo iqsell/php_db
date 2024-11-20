@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0",
+        "squizlabs/php_codesniffer": "^3.11"
+    },
+    "require": {
+        "ext-pdo": "*"
+    }
+}
